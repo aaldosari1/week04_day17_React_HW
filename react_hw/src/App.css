@@ -6,26 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
-img{
-height: 60px;
-border-radius: 20px;
+img {
+  height: 60px;
+  border-radius: 20px;
 }
 
-#n{
-display: flex;
-flex-direction: column;
-  justify-content: center;
-
-  justify-items: center;
-}
-
-#id1,#id2,#id3{
-  display:grid;
+#n {
+  display: grid;
   grid-template-columns: 1fr;
-  border-style: solid;
 
-  justify-content: center;
   justify-items: center;
+}
+
+#cards {
+  border-style: solid;
+  border-color: rgb(127, 127, 204);
+  width: 90%;
+  margin-bottom: 2%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
