@@ -28,7 +28,6 @@ function Post() {
       ],
     },
   ];
-  //  ]);
 
   return (
     <div id="n">
